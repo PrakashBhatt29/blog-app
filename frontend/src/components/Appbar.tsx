@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Avatar, AvatarLogo } from "./BlogCard"
+import { AvatarLogo } from "./BlogCard"
 
 
 
