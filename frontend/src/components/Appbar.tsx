@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
-import { Avatar } from "./BlogCard"
+import { Avatar, AvatarLogo } from "./BlogCard"
 
-export const Appbar = ()=>{
+
+
+export const Appbar =  ()=>{
     return <div className="border-b flex justify-between px-10 py-4">
         <Link to={'/blogs'} className="flex justify-center flex-col font-semibold text-lg ">
         <div className="flex ">
@@ -21,7 +23,7 @@ export const Appbar = ()=>{
                 <svg className="h-5 w-5"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
                 </button>
             </Link>
-            <Avatar size="big" name="Prakash"/>
+            <AvatarLogo/>
          </div>
     </div>
 }
